@@ -5,6 +5,6 @@ function checkAnswer() {
     if (answerInput === "アンタレス") {
         result.textContent = "未決定";
     } else {
-        result.textContent = "残念";
+        result.textContent = "残念...";
     }
 }
