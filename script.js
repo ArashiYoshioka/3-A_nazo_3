@@ -4,6 +4,8 @@ function checkAnswer() {
 
     if (answerInput === "あんたれす") {
         result.textContent = "出席番号13番";
+    } else if (answerInput === "アンタレス") {
+        result.textContent = "主席番号13番";
     } else {
         result.textContent = "残念...";
     }
