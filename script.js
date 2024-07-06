@@ -3,7 +3,7 @@ function checkAnswer() {
     const result = document.getElementById('result');
 
     if (answerInput === "あんたれす") {
-        result.textContent = "出席番号13番";
+        result.textContent = "正解！ 出席番号13番";
     } else if (answerInput === "アンタレス") {
         result.textContent = "主席番号13番";
     } else {
